@@ -1,0 +1,25 @@
+Nutrition Tracking
+- Detailed food logging similar to Cronometer
+- Comprehensive nutrition database
+- Barcode scanning
+- Meal planning and recipe creation
+- Macro and micronutrient tracking
+- Custom food item creation
+- Nutritional goals and progress tracking
+
+Workout Tracking
+- Exercise logging similar to Heavy/Strong
+- Customizable workout templates
+- Progress tracking
+- One-rep max calculations
+- Workout history and progression charts
+- Rest timer
+- Strength and performance metrics
+
+User Profile and Goals
+- Personalized user profiles
+- Body measurements tracking
+- Weight and body composition logging
+- Goal setting (weight loss, muscle gain, etc.)
+- Progress photos
+- Performance benchmarks
