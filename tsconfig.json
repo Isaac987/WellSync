@@ -3,9 +3,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@settings/*": ["src/settings/*"],
-      "@theme/*": ["src/theme/*"],
-      "@assets/*": ["src/assets/*"]
+      "@app/*": ["src/app/*"],
+      "@components/*": ["src/shared/components/*"],
+      "@features/*": ["src/features/*"],
+      "@shared/*": ["src/shared/*"]
     },
     "strict": true
   }

@@ -1,10 +1,4 @@
-export interface ColorPalette {
-  text: string;
-  background: string;
-  primary: string;
-  secondary: string;
-  accent: string;
-}
+import { ColorPalette } from "@shared/types";
 
 export const lightPalette: ColorPalette = {
   text: "#03032b",

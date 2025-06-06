@@ -1,8 +1,9 @@
-import useTheme from "@theme/hooks/useTheme";
+import useGlobalTheme from "@shared/hooks/useGlobalTheme";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function Index() {
-  const { colorPalette } = useTheme();
+export default function Profile() {
+  const colorPalette = useGlobalTheme();
+
   return (
     <View style={{ backgroundColor: colorPalette.background }}>
       <Text style={{ color: colorPalette.text }}>Hello World</Text>

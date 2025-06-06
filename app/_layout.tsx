@@ -1,14 +1,14 @@
-import ColorThemeProvider from "@theme/context/ColorThemeProvider";
+import { GlobalThemeProvider } from "@shared/contexts/GlobalThemeContext";
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 
 export default function RootLayout() {
   return (
-    <ColorThemeProvider>
+    <GlobalThemeProvider>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       </Stack>
       <StatusBar style="auto" />
-    </ColorThemeProvider>
+    </GlobalThemeProvider>
   );
 }
